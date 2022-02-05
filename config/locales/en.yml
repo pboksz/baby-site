@@ -30,4 +30,12 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  index:
+    countdown:
+      header: "Time Since our Hania's Birthd"
+      years: "Years"
+      months: "Months"
+      days: "Days"
+      hours: "Hours"
+      minutes: "Minutes"
+      seconds: "Seconds"
