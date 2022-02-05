@@ -1,23 +1,29 @@
-<div>
+<div data-controller="home">
   <h2><%= simple_format(t("views.index.countdown.header")) %></h2>
   <div class="countdown">
     <div class="time years">
-      <div class="value"><%= simple_format(t("views.index.countdown.years")) %></div>
+      <div class="value">00</div>
+      <div class="label"><%= simple_format(t("views.index.countdown.years")) %></div>
     </div>
     <div class="time months">
-      <div class="value"><%= simple_format(t("views.index.countdown.months")) %></div>
+      <div class="value">00</div>
+      <div class="label"><%= simple_format(t("views.index.countdown.months")) %></div>
     </div>
     <div class="time days">
-      <div class="value"><%= simple_format(t("views.index.countdown.days")) %></div>
+      <div class="value">00</div>
+      <div class="label"><%= simple_format(t("views.index.countdown.days")) %></div>
     </div>
     <div class="time hours">
-      <div class="value"><%= simple_format(t("views.index.countdown.hours")) %></div>
+      <div class="value">00</div>
+      <div class="label"><%= simple_format(t("views.index.countdown.hours")) %></div>
     </div>
     <div class="time minutes">
-      <div class="value"><%= simple_format(t("views.index.countdown.minutes")) %></div>
+      <div class="value">00</div>
+      <div class="label"><%= simple_format(t("views.index.countdown.minutes")) %></div>
     </div>
     <div class="time seconds">
-      <div class="value"><%= simple_format(t("views.index.countdown.seconds")) %></div>
+      <div class="value">00</div>
+      <div class="label"><%= simple_format(t("views.index.countdown.seconds")) %></div>
     </div>
   </div>
 </div>
